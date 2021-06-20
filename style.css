@@ -1,0 +1,263 @@
+body,
+html {
+  width: 100%;
+  background-image: url(./images/bg1920.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 250px;
+}
+
+.logo-div {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bulb {
+  top: 0;
+  right: 10px;
+  position: absolute;
+  width: 400px;
+}
+
+#zero-margin-padding {
+  margin: 0;
+  padding: 0;
+}
+
+.notice-1 {
+  font-size: 64px;
+}
+
+.notice-2 {
+  font-size: 64px;
+}
+
+.footer {
+  margin-top: 15%;
+}
+
+.footer-text-1 {
+  font-family: Poppins;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 24px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.footer-text-2 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-info {
+  line-height: 10px;
+}
+
+.responsive-section {
+  display: none;
+}
+
+/* --------------------------------------------- media screen for tab ( portrait ) ------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .bulb {
+    width: 300px;
+  }
+
+  .desktop-section {
+    display: none;
+  }
+
+  .responsive-section {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .footer-text-1 {
+    font-size: 20px;
+  }
+
+  .footer-text-2 {
+    font-size: 15px;
+  }
+
+  .notice-1 {
+    font-size: 60px;
+  }
+
+  .notice-2 {
+    font-size: 60px;
+  }
+
+  .footer {
+    margin-top: 25%;
+  }
+}
+
+/* ------------------------------------------------------------------------------------ end - media screen for tab ( portrait )  */
+
+/* ------------------------------------------ media screen for tab (landscape) ------------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+  .logo {
+    width: 160px;
+  }
+
+  .bulb {
+    width: 250px;
+  }
+
+  .desktop-section {
+    display: none;
+  }
+
+  .responsive-section {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .notice-1 {
+    font-size: 50px;
+  }
+  .notice-2 {
+    font-size: 50px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- end - media screen for tab (landscape) */
+
+/* --------------------------------------------- media screen for tab (pro) portrait ------------------------------------------- */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+  html {
+    height: 100%;
+    background-image: url(./images/bg1024-1366.jpg);
+  }
+
+  .desktop-section {
+    display: none;
+  }
+
+  .responsive-section {
+    display: block;
+    text-align: center;
+    margin-top: 220px;
+  }
+
+  .footer {
+    margin-top: 50%;
+  }
+  .footer-text-2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------- end - media screen for tab (pro) portrait */
+
+/* ---------------------------------------------- media screen for tab ( pro ) landscape --------------------------------------- */
+
+@media only screen and (min-device-width: 1366px) and (min-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .desktop-section {
+    display: none;
+  }
+
+  .responsive-section {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+    line-height: normal;
+  }
+}
+
+/* ------------------------------------------------------------------------------- end - media screen for tab ( pro ) landscape  */
+
+/* ------------------------------------------------------- media screen for mobile devices ------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .bulb {
+    width: 140px;
+  }
+
+  .logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+    margin-top: 160px;
+  }
+
+  .desktop-section {
+    display: none;
+  }
+
+  .responsive-section {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    line-height: normal;
+  }
+
+  .notice-1 {
+    font-size: 30px;
+  }
+
+  .notice-2 {
+    font-size: 30px;
+  }
+
+  .footer-text-1 {
+    font-size: 20px;
+  }
+
+  .footer-text-2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------  end - media screen for mobile devices */
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1366px) and (device-height: 768px) {
+  .logo {
+    width: 200px;
+  }
+
+  .bulb {
+    top: 0;
+    right: 10px;
+    position: absolute;
+    width: 250px;
+  }
+
+  .notice-1 {
+    font-size: 50px;
+  }
+
+  .notice-2 {
+    font-size: 50px;
+  }
+
+  .footer {
+    margin-top: 7%;
+  }
+
+  .footer-text-2 {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer-info {
+    line-height: 6px;
+  }
+}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
